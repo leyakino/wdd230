@@ -54,3 +54,12 @@ footer p:nth-child(1) {
 footer p:nth-child(2) {
   color: #FFC069;
 }
+
+footer a {
+  text-decoration: none;
+  color: #ffa0a0;
+}
+
+footer a:hover {
+  color: #FFC069;
+}
