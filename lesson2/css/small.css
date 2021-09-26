@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  background: #736d6a;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+header div:nth-child(1) {
+  padding: 10px;
+  background: #574f4c;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+header h2 {
+  text-transform: uppercase;
+}
+
+#gallery {
+  display: block;
+}
+
+#gallery .mainbox {
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  border: solid 1px #b9beb9;
+  overflow: hidden;
+}
+
+#gallery h2 {
+  margin: 0;
+}
+
+.top {
+  background: #8d9599;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.bottom {
+  background: #465246;
+  padding: 5px;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.bottom a:hover {
+  color: yellow;
+}
+
+figure {
+  margin: 10px;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 25px;
+  border: solid 1px #b9beb9;
+}
+
+article {
+  padding: 0 15px 15px 15px;
+  text-align: left;
+  font-size: .9em;
+}
+
+footer {
+  background: #574f4c;
+  border-radius: 25px;
+  padding: 25px;
+  text-align: center;
+}
+
+footer p {
+  margin: .5em;
+}
+
+footer p:nth-child(1) {
+  color: #EFEFEF;
+}
+
+footer p:nth-child(2) {
+  color: #dadfdf;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFC069;
+}
+
+footer a:hover {
+  color: #8d9599;
+}
