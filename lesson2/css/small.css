@@ -31,7 +31,9 @@ header h2 {
 }
 
 #gallery {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
 }
 
 #gallery .mainbox {
