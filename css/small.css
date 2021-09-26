@@ -1,0 +1,13 @@
+@media only screen and (max-width: 550px) {
+  header img {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+
+}
