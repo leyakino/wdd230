@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1028px) {
+  #container {
+    width: 45rem;
+    margin: auto;
+  }
+
+  nav ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  header {
+    border-radius: 12px 12px 0 0;
+  }
+
+  nav ul {
+    border-radius: 0 0 12px 12px;
+  }
+
+  footer {
+    border-radius: 12px;
+  }
+
+
+}
