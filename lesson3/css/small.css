@@ -79,6 +79,10 @@ td.secb {
   color: white;
 }
 
+img {
+  width: 100%;
+}
+
 footer {
   background: #352504;
   border-radius: 0;
