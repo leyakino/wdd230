@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600 !important;
+  ;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+#menuwrap {
+  background: #33605a;
+}
+
+header {
+  background-color: #e9e0d1;
+  padding: 5px 5px;
+}
+
+ul.mainmenu {
+  margin: 0;
+}
+
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+
+}
+
+.headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+#slogan {
+  text-align: center;
+}
+
+
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-top: -10px;
+  color: #070001;
+}
+
+
+main {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: .75rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: black;
+}
+
+main div {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px;
+  background-color: #e9e0d1;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 1080px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.mainmenu {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.mainmenu li:first-child {
+  display: block;
+}
+
+.mainmenu li {
+  display: none;
+}
+
+.mainmenu a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mainmenu a:hover {
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
+}
+
+p {
+  line-height: .25em;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.mainmenu li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="mainmenu responsive">
+  */
+.hidden li {
+  display: block;
+}
+
+nav ul li.active a {
+  background: rgba(0, 0, 0, .2);
+  color: yellow;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #33605a;
+  width: 100%;
+  color: white;
+  padding: .15rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+  .mainmenu {
+    display: flex;
+  }
+
+  .mainmenu li:first-child {
+    display: none;
+  }
+
+  .mainmenu li {
+    display: block;
+    flex: 1 1 10%;
+  }
+
+  .mainmenu li a {
+    color: #fff;
+  }
+}
