@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+html,
+body {
+  overflow-x: hidden;
+}
 
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: 600 !important;
-  ;
+body {
+  padding: 0;
+  margin: 0;
 }
 
 * {
@@ -19,25 +23,22 @@ h3 {
   box-sizing: border-box;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-
+p {
+  line-height: 1.3em;
 }
 
-#menuwrap {
-  background: #33605a;
+
+h2,
+h3 {
+  font-weight: 600 !important;
 }
+
+/*header*/
 
 header {
   background-color: #e9e0d1;
   padding: 5px 5px;
 }
-
-ul.mainmenu {
-  margin: 0;
-}
-
 
 .headings {
   display: flex;
@@ -56,43 +57,43 @@ header img {
   margin: 0 0 0 17px;
 }
 
+#toplogo {
+  font-weight: 700 !important;
+  text-align: center;
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+span#color1 {
+  color: #48220f;
+}
+
+span#color2 {
+  color: #8f441d;
+}
+
+span#color3 {
+  color: #bc8f77;
+}
+
 #slogan {
   text-align: center;
+  margin: 5px 0 20px 0;
 }
 
+/*end header*/
 
-
-h1 {
-  color: white;
-}
-
-h2 {
-  margin-left: 10px;
-  margin-top: -10px;
-  color: #070001;
-}
-
-
-main {
-  max-width: 45rem;
-  margin: 0 auto;
-  padding: .75rem;
-  font-family: 'Noto Sans TC', sans-serif;
-  color: black;
-}
-
-main div {
-  border: 1px solid #beb7a9;
-  padding: 1rem;
-  margin: 10px;
-  background-color: #e9e0d1;
-}
+/*navigation*/
 
 nav {
   margin: 0 auto;
   background-color: #33605a;
-  max-width: 1080px;
-  font-family: 'Noto Sans TC', sans-serif;
+  max-width: 67rem;
+}
+
+nav ul li.active a {
+  background: rgba(0, 0, 0, .2);
+  color: yellow;
 }
 
 .mainmenu {
@@ -122,9 +123,90 @@ nav {
   background: rgba(0, 0, 0, .2);
 }
 
-p {
-  line-height: .25em;
+#menuwrap {
+  background: #33605a;
 }
+
+ul.mainmenu {
+  margin: 0;
+}
+
+/*end navigation*/
+
+/*main*/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  color: black;
+}
+
+
+
+/*end main*/
+
+figure {
+  margin: 0;
+}
+
+figure#hero h3 {
+  margin: 0;
+}
+
+/*hero*/
+
+#hero {
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#hero figcaption {
+  position: unset;
+}
+
+#hero figcaption {
+  position: unset;
+  top: 2rem;
+  background: rgb(51, 96, 90, 1);
+  left: 2rem;
+  border-radius: 0;
+  color: white;
+  padding: 20px;
+}
+
+figure img {
+  display: block;
+}
+
+/*end hero*/
+
+.section1 h3 {
+  background: #d1c2a8;
+  margin: 0;
+  color: black;
+  padding: 10px;
+  font-weight: 500 !important;
+}
+
+.section1 div {
+  border: solid 1px #c7b597;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.section1 img {
+  margin: 10px 0;
+  width: 50%;
+}
+
+.section2 div {
+  padding-bottom: 10px;
+}
+
 
 .showme {
   display: block;
@@ -142,10 +224,7 @@ p {
   display: block;
 }
 
-nav ul li.active a {
-  background: rgba(0, 0, 0, .2);
-  color: yellow;
-}
+
 
 footer {
   margin: 0 auto;
@@ -156,11 +235,72 @@ footer {
   text-align: center;
   justify-content: center;
   font-size: 14px;
-  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h2#five {
+  display: none;
+}
+
+main .section1 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+  display: none;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #e9e0d1;
+}
+
+main .section2 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e9e0d1;
+}
+
+
+
+iframe {
+  width: 100%;
+  border: solid 1px #979188 !important;
+}
+
+article img {
+  float: none;
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+section.section2>div:nth-child(3) {
+  grid-column: 1/-1;
+}
+
+#message {
+  text-align: center;
+  marquee: initial;
+  background: #2e160a;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  margin: 20px;
 }
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
+
+
   .mainmenu {
     display: flex;
   }
@@ -177,4 +317,11 @@ footer {
   .mainmenu li a {
     color: #fff;
   }
+
+
+  main.section1 {
+    display: none;
+  }
+
+
 }

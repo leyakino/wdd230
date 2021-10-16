@@ -1,6 +1,8 @@
 @media only screen and (min-width: 64em) {
 
-
+  h2#five {
+    display: block;
+  }
 
   .headings h1 {
     font-size: 3rem;
@@ -45,4 +47,21 @@
     text-align: left;
     text-decoration: none;
   }
+
+  main {
+    max-width: 67rem;
+  }
+
+  article {
+    margin: unset;
+  }
+
+  #five {
+    margin: 10px 0;
+  }
+
+  #contact {
+    margin: 10px 0;
+  }
+
 }

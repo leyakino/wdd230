@@ -10,12 +10,14 @@
   <link rel="stylesheet" type="text/css" href="css/small.css" />
   <link rel="stylesheet" type="text/css" href="css/medium.css" />
   <link rel="stylesheet" type="text/css" href="css/large.css" />
+
 </head>
 
 <body>
   <div id="message">The message about Sunday Church</div>
   <header>
-    <img src="images/logo.png" alt="South East Climate">
+    <img src="images/logo2.png" alt="South East Climate">
+    <h1 id="toplogo"><span id="color1">south</span><span id="color2">east</span><span id="color3">climate</span></h1>
     <p id="slogan">Reporting Accurate Weather Since 1949</p>
   </header>
   <div id="menuwrap">
@@ -32,37 +34,96 @@
     </nav>
   </div>
   <main>
-    <h2>Preston Idaho</h2>
-    <div>Hero Banner</div>
-    <div>Article</div>
-    <div>Contact Us</div>
+    <h1>Preston Idaho</h1>
+    <figure id="hero"><img src="images/idaho.jpg">
+      <figcaption>
+        <h3>Weather Summary</h3>
+        High: Sunny<br>
+        WindChill: ° F<br>
+        Humidity: 55%<br>
+        Windspeed: 3 mph
+
+      </figcaption>
+    </figure>
+    <h2 id="five">Five Day Forecast</h2>
+    <section class="section1">
+      <div>
+        <h3>Monday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Tuesday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Wednesday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Thursday</h3>
+        <img src="images/cloudy.svg" alt=""><br>
+        75&deg;
+      </div>
+      <div>
+        <h3>Friday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+    </section>
+    <article>
+      <h2>Article Title</h2>
+      <img src="images/hiking.jpg" alt="Hiking">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend nisi at nulla pellentesque imperdiet.
+        Maecenas sed mattis ipsum. In quam magna, pellentesque sit amet ultricies in, sollicitudin vel ligula. Nunc
+        augue justo, tristique at rutrum eget, maximus quis est. In aliquet odio congue urna consequat ullamcorper.
+        Donec finibus velit at mauris porttitor sodales. Maecenas vehicula id orci sit amet bibendum. Suspendisse ut
+        pretium eros, sit amet iaculis felis. Cras urna eros, rutrum malesuada mollis a, egestas non leo. Integer in
+        semper velit. Vestibulum rutrum eu enim at hendrerit. Mauris et justo eget nibh luctus finibus ac id eros. Nunc
+        ullamcorper, sapien ac sollicitudin vehicula, turpis elit sollicitudin magna, vitae sodales justo nunc eget
+        sapien. Aenean bibendum est diam, a consectetur velit fermentum vitae. Maecenas ullamcorper libero aliquet
+        faucibus malesuada. Nullam a justo nec ex mattis pulvinar.</p>
+      <p>
+
+        Etiam a purus in ipsum molestie tristique. Nunc in libero cursus lorem varius commodo. Nulla sit amet lectus ut
+        velit imperdiet mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis tortor in felis
+        elementum tempor. Cras laoreet nec ex et placerat. Nullam lacinia turpis eget libero posuere, eget rutrum dui
+        rhoncus.
+      </p>
+
+
+    </article>
+    <h2 id="contact">Contact Us</h2>
+    <section class="section2">
+      <div>
+        <strong>Address:</strong><br>
+        The Weather Center<br>
+        123 Main Street.<br>
+        Franklin, MI 87654
+
+      </div>
+      <div>
+        <strong>Phone:</strong><br>
+        (801) 555-1234<br>
+        Email:<a href="mailto:contact@ yoururl.com">contact@ yoururl.com</a>
+
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277333!2d-111.91534437001668!3d42.09980531171999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634399071427!5m2!1sen!2sph"
+          height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+    </section>
   </main>
   <footer>
-    <p>&copy; <span id="yearly"></span> | Leo Y. Aquino | South East Climate</p>
-    <p>Last Updated: <span id="lastupdated"></span></p>
+    <p>&copy;Leo Y. Aquino | <span id="lastupdated"></span></p>
   </footer>
-  <script src="../js/js.js"></script>
+
   <script src="js/scripts.js"></script>
-
-  <script>
-
-    const today = new Date();
-    console.log(today);
-
-    const dayNumber = today.getDay();
-
-    const element = document.getElementById("message");
-
-    console.log(dayNumber);
-
-
-    if (dayNumber == 5) {
-      element.classList.add("showme");
-
-    } else {
-      element.classList.add("hideme");
-    }
-  </script>
 
 </body>
 
