@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/small.css" />
+  <link rel="stylesheet" type="text/css" href="css/medium.css" />
+  <link rel="stylesheet" type="text/css" href="css/large.css" />
+</head>
+
+<body>
+  <div id="message">The message about Sunday Church</div>
+  <header>
+    <img src="images/logo.png" alt="South East Climate">
+    <p id="slogan">Reporting Accurate Weather Since 1949</p>
+  </header>
+  <div id="menuwrap">
+    <nav>
+      <ul class="mainmenu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <h2>Preston Idaho</h2>
+    <div>Hero Banner</div>
+    <div>Article</div>
+    <div>Contact Us</div>
+  </main>
+  <footer>
+    <p>&copy; <span id="yearly"></span> | Leo Y. Aquino | South East Climate</p>
+    <p>Last Updated: <span id="lastupdated"></span></p>
+  </footer>
+  <script src="../js/js.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <script>
+
+    const today = new Date();
+    console.log(today);
+
+    const dayNumber = today.getDay();
+
+    const element = document.getElementById("message");
+
+    console.log(dayNumber);
+
+
+    if (dayNumber == 5) {
+      element.classList.add("showme");
+
+    } else {
+      element.classList.add("hideme");
+    }
+  </script>
+
+</body>
+
+</html>
