@@ -276,7 +276,6 @@ section.section2>div:nth-child(3) {
 
 #message {
   text-align: center;
-  marquee: initial;
   background: #2e160a;
   color: white;
 }
