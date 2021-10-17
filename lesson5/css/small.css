@@ -6,8 +6,6 @@ body {
 }
 
 html {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5em;
 }
@@ -18,8 +16,6 @@ body {
 }
 
 * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -295,6 +291,10 @@ h2 {
 
 article {
   margin: 20px;
+}
+
+.section2 h3 {
+  margin-bottom: 0;
 }
 
 /* Media Query for medium + screens */
