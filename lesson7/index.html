@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Leo Aquino">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="description" content="Preston Page Weather Website">
+  <title>Preston</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/small.css" />
+  <link rel="stylesheet" type="text/css" href="css/medium.css" />
+  <link rel="stylesheet" type="text/css" href="css/large.css" />
+
+</head>
+
+<body>
+  <div id="message">The message about Sunday Church</div>
+  <header>
+    <img src="images/logo2.png" alt="South East Climate">
+    <h1 id="toplogo"><span id="color1">south</span><span id="color2">east</span><span id="color3">climate</span></h1>
+    <p id="slogan">Reporting Accurate Weather Since 1949</p>
+  </header>
+  <div id="menuwrap">
+    <nav>
+      <ul class="mainmenu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <h1>Preston Idaho</h1>
+    <div id="herobanner">
+      <picture class="photoA">
+        <source media="(max-width: 200px)" srcset="images/franklin-200.jpg">
+        <source media="(max-width: 500px)" srcset="images/franklin-500.jpg">
+        <source media="(max-width: 800px)" srcset="images/franklin-800.jpg">
+        <img src="images/franklin-1100.jpg" alt="">
+      </picture>
+      <div id="herocase">
+        <h3>Weather Summary</h3>
+        High: <span id="temp">32</span>&deg;<br>
+        Humidity: 55%<br>
+        Windspeed: <span id="speed">60</span> mph <br>
+        WindChill: <span id="chill">5</span>
+      </div>
+    </div>
+    <!--<figure id="hero"><img src="images/idaho.jpg">
+      <figcaption>
+        <h3>Weather Summary</h3>
+        High: <span id="temp">32</span>&deg;<br>
+        Humidity: 55%<br>
+        Windspeed: <span id="speed">60</span> mph <br>
+        WindChill: <span id="chill">5</span>
+      </figcaption>
+    </figure>-->
+    <h2 id="five">Five Day Forecast</h2>
+    <section class="section1">
+      <div>
+        <h3>Monday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Tuesday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Wednesday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+      <div>
+        <h3>Thursday</h3>
+        <img src="images/cloudy.svg" alt=""><br>
+        75&deg;
+      </div>
+      <div>
+        <h3>Friday</h3>
+        <img src="images/sun.svg" alt=""><br>
+        87&deg;
+      </div>
+    </section>
+    <article>
+      <h2>Article Title</h2>
+      <img src="images/hiking.jpg" alt="Hiking">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend nisi at nulla pellentesque imperdiet.
+        Maecenas sed mattis ipsum. In quam magna, pellentesque sit amet ultricies in, sollicitudin vel ligula. Nunc
+        augue justo, tristique at rutrum eget, maximus quis est. In aliquet odio congue urna consequat ullamcorper.
+        Donec finibus velit at mauris porttitor sodales. Maecenas vehicula id orci sit amet bibendum. Suspendisse ut
+        pretium eros, sit amet iaculis felis. Cras urna eros, rutrum malesuada mollis a, egestas non leo. Integer in
+        semper velit. Vestibulum rutrum eu enim at hendrerit. Mauris et justo eget nibh luctus finibus ac id eros. Nunc
+        ullamcorper, sapien ac sollicitudin vehicula, turpis elit sollicitudin magna, vitae sodales justo nunc eget
+        sapien. Aenean bibendum est diam, a consectetur velit fermentum vitae. Maecenas ullamcorper libero aliquet
+        faucibus malesuada. Nullam a justo nec ex mattis pulvinar.</p>
+      <p>
+
+        Etiam a purus in ipsum molestie tristique. Nunc in libero cursus lorem varius commodo. Nulla sit amet lectus ut
+        velit imperdiet mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis tortor in felis
+        elementum tempor. Cras laoreet nec ex et placerat. Nullam lacinia turpis eget libero posuere, eget rutrum dui
+        rhoncus.
+      </p>
+
+
+    </article>
+    <h2 id="contact">Contact Us</h2>
+    <section class="section2">
+      <div>
+        <h3>Address:</h3>
+        The Weather Center<br>
+        123 Main Street.<br>
+        Franklin, MI 87654
+
+      </div>
+      <div>
+        <h3>Phone:</h3>
+        (801) 555-1234<br>
+        Email:<a href="mailto:contact@yoururl.com">contact@yoururl.com</a>
+
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277333!2d-111.91534437001668!3d42.09980531171999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634399071427!5m2!1sen!2sph"
+          height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;Leo Y. Aquino | <span id="lastupdated"></span></p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontload.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy Loading</title>
+  <link rel="stylesheet" type="text/css" href="css/lazyload.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Lazy Loading</h1>
+
+    <picture>
+      <img data-src="images/lazy/dental-assistant.jpg" src="images/lazy/300x400.webp" alt="Dental Assistant">
+    </picture>
+
+    <picture>
+      <img data-src="images/lazy/dental-care.jpg" src="images/lazy/300x400.webp" alt="Dental Care">
+    </picture>
+  </main>
+
+  <script src="js/imageloader.js"></script>
+</body>
+
+</html>
