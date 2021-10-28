@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Leo Aquino">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="description" content="Preston Page Weather Website">
+  <title>Preston</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/small.css" />
+  <link rel="stylesheet" type="text/css" href="css/medium.css" />
+  <link rel="stylesheet" type="text/css" href="css/large.css" />
+
+</head>
+
+<body>
+  <div id="message">The message about Sunday Church</div>
+  <header>
+    <img src="images/logo2.png" alt="South East Climate">
+    <h1 id="toplogo"><span id="color1">south</span><span id="color2">east</span><span id="color3">climate</span></h1>
+    <p id="slogan">Reporting Accurate Weather Since 1949</p>
+  </header>
+  <div id="menuwrap">
+    <nav>
+      <ul class="mainmenu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <h1>Weather Gallery</h1>
+    <div class="gallery">
+      <figure>
+        <img data-src="images/weather/pic1.jpg" src="images/weather/placeholder.png" alt="Classic cloudscape">
+        <figcaption>Classic cloudscape</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic2.jpg" src="images/weather/placeholder.png"
+          alt="Dark stormy clouds over corn field">
+        <figcaption>Dark stormy clouds over corn field</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic3.jpg" src="images/weather/placeholder.png" alt="Night sky with lightning">
+        <figcaption>Night sky with lightning</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic4.jpg" src="images/weather/placeholder.png" alt="Plants under snow">
+        <figcaption>Plants under snow</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic5.jpg" src="images/weather/placeholder.png" alt="Rainbow after the rain">
+        <figcaption>Rainbow after the rain</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic6.jpg" src="images/weather/placeholder.png" alt="Foggy road">
+        <figcaption>Foggy road</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic7.jpg" src="images/weather/placeholder.png"
+          alt="Storm clouds over wheat field">
+        <figcaption>Storm clouds over wheat field</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic8.jpg" src="images/weather/placeholder.png" alt="Dark sky over fields">
+        <figcaption>Dark sky over fields</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic9.jpg" src="images/weather/placeholder.png"
+          alt="Storm forming in the wheat field">
+        <figcaption>Storm forming in the wheat field</figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;Leo Y. Aquino | <span id="lastupdated"></span></p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontload.js"></script>
+  <script src="js/galleryloader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+</body>
+
+</html>

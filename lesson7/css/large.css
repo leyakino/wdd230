@@ -38,8 +38,6 @@
     font-size: 3rem;
   }
 
-
-
   .mainmenu a {
     display: block;
     color: #fff;
@@ -62,6 +60,16 @@
 
   #contact {
     margin: 10px 0;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 29px;
+  }
+
+  .gallery figure {
+    margin: 0;
   }
 
 }
