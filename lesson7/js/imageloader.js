@@ -3,8 +3,6 @@ function initialize(){
 
 const images = document.querySelectorAll('img[data-src]');
 
-
-
 const imageOptions = {
     threshold: 1,
     rootMargin: "0px 0px 5px 0px"
@@ -25,7 +23,8 @@ if ('IntersectionObserver' in window) {
             if (item.isIntersecting) {
                 loadImages(item.target);
                 observer.unobserve(item.target);
-                gsap.from(item.target, {filter: "blur(.5rem)", transform: "rotateX(180deg)"});
+                gsap.from(item.target, {filter: "blur(5rem)", transform: "rotateX(180deg)"});
+
             }
         });
     }, imageOptions);
@@ -40,9 +39,9 @@ if ('IntersectionObserver' in window) {
    
 }
 
-
-
-
 };
+
+
+
 
 window.onload = addEventListener("load", initialize);
