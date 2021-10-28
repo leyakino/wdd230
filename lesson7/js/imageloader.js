@@ -23,11 +23,9 @@ if ('IntersectionObserver' in window) {
         items.forEach((item) => {
           
             if (item.isIntersecting) {
-              gsap.from("img[data-src]", {filter: "blur(.5rem)"});
                 loadImages(item.target);
                 observer.unobserve(item.target);
-                //gsap.from("img[data-src]", {filter: "blur(.5rem)"});
-                //document.getElementById("blurry").style.filter = "blur(1rem)";
+                gsap.from(item.target, {filter: "blur(.5rem)", transform: "rotateX(180deg)"});
             }
         });
     }, imageOptions);
