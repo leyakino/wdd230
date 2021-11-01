@@ -343,6 +343,10 @@ article {
   margin-bottom: 0;
 }
 
+ul.mainmenu li a {
+  text-align: center;
+}
+
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
 
