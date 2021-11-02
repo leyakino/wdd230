@@ -3,7 +3,7 @@ function loadvisit(){
 const millisecondsToDays = 86400000;
 const lastvisit = localStorage.getItem("lastvisit");
 
-const todayvisit = Math.round((Date.now() / millisecondsToDays));
+const todayvisit = Math.floor((Date.now() / millisecondsToDays));
 
 const numbersofvisit = todayvisit - lastvisit;
 
