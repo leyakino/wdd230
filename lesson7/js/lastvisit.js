@@ -3,13 +3,13 @@ function loadvisit(){
 const millisecondsToDays = 86400000;
 const lastvisit = localStorage.getItem("lastvisit");
 
-const todayvisit = (Date.now() / millisecondsToDays);
+const todayvisit = Math.round((Date.now() / millisecondsToDays));
 
 const numbersofvisit = todayvisit - lastvisit;
 
 localStorage.setItem("lastvisit", todayvisit);
 
-document.getElementById("bwisit").textContent = Math.round(numbersofvisit);
+document.getElementById("bwisit").textContent = numbersofvisit;
 
 //console.log(numbersofvisit);
 }
