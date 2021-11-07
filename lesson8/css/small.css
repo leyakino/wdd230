@@ -364,6 +364,7 @@ form fieldset {
 form legend {
   margin: 0 1rem;
   padding: 0 .5rem;
+  text-align: center;
 }
 
 form label.top {
