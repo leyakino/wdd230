@@ -388,7 +388,6 @@ form label.top select {
   border: 1px solid #999;
   border-radius: 4px;
   padding: .75rem;
-  max-width: 20rem;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
   -webkit-appearance: none;
@@ -425,7 +424,6 @@ input[type="radio"] {
 
 textarea {
   width: 100%;
-  max-width: 20rem;
 }
 
 input.submitButton {
