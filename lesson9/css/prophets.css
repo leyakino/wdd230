@@ -44,8 +44,13 @@ p {
   font-size: .9rem;
 }
 
+/*
 section p:nth-child(3) {
   padding-bottom: 10px;
+}*/
+
+h2 {
+  margin-bottom: 0;
 }
 
 

@@ -17,10 +17,11 @@ let card = document.createElement('section');
         p2.textContent = `Place of Birth: ${prophets[i].birthplace}`;
         image.setAttribute('src', prophets[i].imageurl);
         image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} ${prophets[i].order}`);
-  card.appendChild(h2);
+        
+        card.appendChild(image);
+        card.appendChild(h2);
         card.appendChild(p);
         card.appendChild(p2);
-        card.appendChild(image)
 document.querySelector('div.cards').appendChild(card);
 }	
 });
