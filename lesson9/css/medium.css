@@ -133,6 +133,7 @@
   .cards section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 15px;
   }
 
   .cards section:nth-child(2) :nth-child(1) {
