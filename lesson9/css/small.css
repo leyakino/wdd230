@@ -1,0 +1,528 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+
+h2,
+h3 {
+  font-weight: 600 !important;
+}
+
+/*header*/
+
+header {
+  background-color: #e9e0d1;
+  padding: 5px 5px;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+
+}
+
+.headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+#toplogo {
+  font-weight: 700 !important;
+  text-align: center;
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+span#color1 {
+  color: #48220f;
+}
+
+span#color2 {
+  color: #8f441d;
+}
+
+span#color3 {
+  color: #bc8f77;
+}
+
+#slogan {
+  text-align: center;
+  margin: 5px 0 20px 0;
+}
+
+/*end header*/
+
+/*navigation*/
+
+nav {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+nav ul li.active a {
+  background: rgba(0, 0, 0, .2);
+  color: yellow;
+}
+
+.mainmenu {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.mainmenu li:first-child {
+  display: block;
+}
+
+.mainmenu li {
+  display: none;
+}
+
+.mainmenu a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mainmenu a:hover {
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
+}
+
+#menuwrap {
+  background: #33605a;
+}
+
+ul.mainmenu {
+  margin: 0;
+}
+
+/*end navigation*/
+
+/*main*/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  color: black;
+}
+
+
+
+/*end main*/
+
+#herobanner picture.photoA img {
+  width: 100%;
+  display: block;
+}
+
+.gallery figure {
+  margin: 20px;
+}
+
+.gallery figcaption {
+  text-align: center;
+}
+
+
+
+.gallery img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.gallery {
+  display: block;
+}
+
+figure img:hover {
+  box-shadow: 0px 1px 57px 0px rgb(0 0 0 / 24%);
+  -webkit-box-shadow: 0px 1px 57px 0px rgb(0 0 0 / 24%);
+  -moz-box-shadow: 0px 1px 57px 0px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+/*
+figure {
+  margin: 0;
+}
+
+figure#hero h3 {
+  margin: 0;
+}
+
+
+
+#hero {
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#hero figcaption {
+  position: unset;
+}
+
+#hero figcaption {
+  position: unset;
+  top: 2rem;
+  background: rgb(51, 96, 90, 1);
+  left: 2rem;
+  border-radius: 0;
+  color: white;
+  padding: 20px;
+}
+
+figure img {
+  display: block;
+}
+*/
+
+#herobanner {
+  position: relative;
+}
+
+#herobanner #herocase {
+  position: unset;
+  top: 2rem;
+  background: rgb(51, 96, 90, 1);
+  left: 2rem;
+  border-radius: 0;
+  color: white;
+  padding: 20px;
+}
+
+/*end hero*/
+
+.section1 h3 {
+  background: #d1c2a8;
+  margin: 0;
+  color: black;
+  padding: 10px;
+  font-weight: 500 !important;
+}
+
+.section1 div {
+  border: solid 1px #c7b597;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.section1 img {
+  margin: 10px 0;
+  width: 50%;
+}
+
+.section2 div {
+  padding-bottom: 10px;
+}
+
+
+.showme {
+  display: block;
+}
+
+.hideme {
+  display: none;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.mainmenu li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="mainmenu responsive">
+  */
+.hidden li {
+  display: block;
+}
+
+
+
+footer {
+  margin: 0 auto;
+  background-color: #33605a;
+  width: 100%;
+  color: white;
+  padding: .15rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+h2#five {
+  display: none;
+}
+
+main .section1 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+  display: none;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #e9e0d1;
+}
+
+main .section2 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e9e0d1;
+}
+
+
+
+iframe {
+  width: 100%;
+  border: solid 1px #979188 !important;
+}
+
+article img {
+  float: none;
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+section.section2>div:nth-child(3) {
+  grid-column: 1/-1;
+}
+
+#message {
+  text-align: center;
+  background: #2e160a;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  margin: 20px;
+}
+
+.section2 h3 {
+  margin-bottom: 0;
+}
+
+ul.mainmenu li a {
+  text-align: center;
+}
+
+/*form*/
+
+
+
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  background: #fbfbfb;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+form legend {
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  text-align: center;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+}
+
+label.top.lesstop {
+  padding-top: 0 !important;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .75rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
+}
+
+input.submitButton {
+  margin: auto;
+  /* text-align: center; */
+  display: block;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+  margin-top: 5px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+textarea {
+  width: 100%;
+  height: 10rem;
+}
+
+input.submitButton {
+  width: 85%;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  background: #33605a;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+label.sbs.addtop {
+  margin-top: 10px;
+}
+
+div#thanks h1 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1em;
+  margin: 0;
+}
+
+div#thanks {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+
+main img {
+  border-style: none;
+  width: 100%;
+}
+
+.cards p {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.cards h2 {
+  text-align: center;
+  background: #745646;
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+
+.cards section {
+  border: 1px solid #ccc;
+}
+
+.cards {
+  display: block;
+}
+
+
+
+
+main h1 {
+  text-align: center;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+
+
+  .mainmenu {
+    display: flex;
+  }
+
+  .mainmenu li:first-child {
+    display: none;
+  }
+
+  .mainmenu li {
+    display: block;
+    flex: 1 1 10%;
+  }
+
+  .mainmenu li a {
+    color: #fff;
+  }
+
+
+  main.section1 {
+    display: none;
+  }
+
+
+}

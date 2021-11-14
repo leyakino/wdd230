@@ -1,0 +1,108 @@
+@media only screen and (min-width: 64em) {
+
+  h2#five {
+    display: block;
+  }
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+
+
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    margin-left: 2%;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: .6rem 1rem;
+  }
+
+  nav ul.hide {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+  .mainmenu a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  main {
+    max-width: 67rem;
+  }
+
+  article {
+    margin: unset;
+  }
+
+  #five {
+    margin: 10px 0;
+  }
+
+  #contact {
+    margin: 10px 0;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 29px;
+  }
+
+  .gallery figure {
+    margin: 0;
+  }
+
+  form label.sbs {
+    padding: .4rem;
+  }
+
+  form label.sbs {
+    padding: .4rem 0;
+  }
+
+  form fieldset {
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+
+  input.submitButton {
+    width: 20%;
+  }
+
+  div#thanks h1 {
+    font-size: 5rem;
+  }
+
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .cards section {
+    display: block;
+  }
+
+}
