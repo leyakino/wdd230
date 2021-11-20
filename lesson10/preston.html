@@ -37,7 +37,7 @@
     </nav>
   </div>
   <main>
-    <h1>Preston Idaho</h1>
+    <h1 id="place"></h1>
     <div id="herobanner">
       <picture class="photoA">
         <source media="(max-width: 200px)" srcset="images/franklin-200.jpg">
@@ -47,8 +47,9 @@
       </picture>
       <div id="herocase">
         <h3>Weather Summary</h3>
+        Currently: <span id="current">Sunny</span><br>
         High: <span id="temp">32</span>&deg;<br>
-        Humidity: 55%<br>
+        Humidity: <span id="humid">55</span>%<br>
         Windspeed: <span id="speed">60</span> mph <br>
         WindChill: <span id="chill">5</span>
       </div>
@@ -65,29 +66,29 @@
     <h2 id="five">Five Day Forecast</h2>
     <section class="section1">
       <div>
-        <h3>Monday</h3>
-        <img src="images/sun.svg" alt=""><br>
-        87&deg;
+        <h3 id="day1">Monday</h3>
+        <img src="images/sun.svg" id="weatherimage1" alt=""><br>
+        <span id="forecastday1"></span>&deg; F
       </div>
       <div>
-        <h3>Tuesday</h3>
-        <img src="images/sun.svg" alt=""><br>
-        87&deg;
+        <h3 id="day2">Tuesday</h3>
+        <img src="images/sun.svg" id="weatherimage2" alt=""><br>
+        <span id="forecastday2"></span>&deg; F
       </div>
       <div>
-        <h3>Wednesday</h3>
-        <img src="images/sun.svg" alt=""><br>
-        87&deg;
+        <h3 id="day3">Wednesday</h3>
+        <img src="images/sun.svg" id="weatherimage3" alt=""><br>
+        <span id="forecastday3"></span>&deg; F
       </div>
       <div>
-        <h3>Thursday</h3>
-        <img src="images/cloudy.svg" alt=""><br>
-        75&deg;
+        <h3 id="day4">Thursday</h3>
+        <img src="images/cloudy.svg" id="weatherimage4" alt=""><br>
+        <span id="forecastday4"></span>&deg; F
       </div>
       <div>
-        <h3>Friday</h3>
-        <img src="images/sun.svg" alt=""><br>
-        87&deg;
+        <h3 id="day5">Friday</h3>
+        <img src="images/sun.svg" id="weatherimage5" alt=""><br>
+        <span id="forecastday5"></span>&deg; F
       </div>
     </section>
     <article>
@@ -144,7 +145,7 @@
   <script src="js/windchill.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script src="js/fontload.js"></script>
-
+  <script src="js/weatherapi.js"></script>
 </body>
 
 </html>

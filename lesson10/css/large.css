@@ -106,4 +106,10 @@
 
   }
 
+  main .section1 {
+
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #e9e0d1;
+  }
+
 }

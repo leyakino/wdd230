@@ -280,16 +280,11 @@ footer {
   font-size: 14px;
 }
 
-h2#five {
-  display: none;
-}
-
 main .section1 {
   border: 1px solid #beb7a9;
   padding: 1rem;
   margin: 10px 0;
-  display: none;
-  grid-template-columns: repeat(5, 1fr);
+
   background-color: #e9e0d1;
 }
 
