@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Leo Aquino">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="description" content="South East Climate image gallery">
+  <title>South East Climate - Idaho</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/small.css" />
+  <link rel="stylesheet" type="text/css" href="css/medium.css" />
+  <link rel="stylesheet" type="text/css" href="css/large.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="message">The message about Sunday Church</div>
+  <header>
+    <img src="images/logo2.png" alt="South East Climate">
+    <h1 id="toplogo"><span id="color1">south</span><span id="color2">east</span><span id="color3">climate</span></h1>
+    <p id="slogan">Reporting Accurate Weather Since 1949</p>
+  </header>
+  <div id="menuwrap">
+    <nav>
+      <ul class="mainmenu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="soda.html">Soda Springs</a></li>
+        <li><a href="fish.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="titletop">
+    <h2 id="place2">Weather Gallery</h2>
+  </div>
+  <main>
+
+    <div class="gallery">
+      <figure>
+        <img data-src="images/weather/pic1.jpg" src="images/weather/placeholder.png" alt="Classic cloudscape">
+        <figcaption>Classic cloudscape</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic2.jpg" src="images/weather/placeholder.png"
+          alt="Dark stormy clouds over corn field">
+        <figcaption>Dark stormy clouds over corn field</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic3.jpg" src="images/weather/placeholder.png" alt="Night sky with lightning">
+        <figcaption>Night sky with lightning</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic4.jpg" src="images/weather/placeholder.png" alt="Plants under snow">
+        <figcaption>Plants under snow</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic5.jpg" src="images/weather/placeholder.png" alt="Rainbow after the rain">
+        <figcaption>Rainbow after the rain</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic6.jpg" src="images/weather/placeholder.png" alt="Foggy road">
+        <figcaption>Foggy road</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic7.jpg" src="images/weather/placeholder.png"
+          alt="Storm clouds over wheat field">
+        <figcaption>Storm clouds over wheat field</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic8.jpg" src="images/weather/placeholder.png" alt="Dark sky over fields">
+        <figcaption>Dark sky over fields</figcaption>
+      </figure>
+      <figure>
+        <img data-src="images/weather/pic9.jpg" src="images/weather/placeholder.png"
+          alt="Storm forming in the wheat field">
+        <figcaption>Storm forming in the wheat field</figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <div id="ftop">
+      <div id="addy">
+        <div><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4864527362342!2d-111.87576958455196!3d42.097051479205426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1637637854594!5m2!1sen!2sph"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div>
+          <strong>Address:</strong>
+          <ul id="loc">
+            <li id="one">30 N 1st E Preston, ID 83263</li>
+            <li id="two"> <a href="tel:999999999" target="blank">999.999.999</a></li>
+            <li id="three"><a href="mailto:email@southeastclimate.com" target="blank"> email@southeastclimate.com</a>
+          </ul>
+
+
+          <ul id="social">
+            <li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.whatsapp.com/" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footnote">
+      <p>&copy;Leo Y. Aquino | <span id="lastupdated"></span> | Last Visit: <span id="bwisit"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontload.js"></script>
+  <script src="js/galleryloader.js"></script>
+  <script src="js/lastvisit.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+</body>
+
+</html>

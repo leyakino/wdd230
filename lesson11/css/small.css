@@ -1,0 +1,648 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+
+h2,
+h3 {
+  font-weight: 600 !important;
+}
+
+/*header*/
+
+header {
+  background-color: #e9e0d1;
+  padding: 5px 5px;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+
+}
+
+.headings h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+#toplogo {
+  font-weight: 700 !important;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+span#color1 {
+  color: #48220f;
+}
+
+span#color2 {
+  color: #8f441d;
+}
+
+span#color3 {
+  color: #bc8f77;
+}
+
+#slogan {
+  text-align: center;
+  margin: 5px 0 20px 0;
+  font-size: .7rem;
+}
+
+/*end header*/
+
+/*navigation*/
+
+nav {
+  margin: 0 auto;
+  background-color: #33605a;
+  max-width: 67rem;
+}
+
+nav ul li.active a {
+  background: rgba(0, 0, 0, .2);
+  color: yellow;
+}
+
+.mainmenu {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.mainmenu li:first-child {
+  display: block;
+}
+
+.mainmenu li {
+  display: none;
+}
+
+.mainmenu a {
+  display: block;
+  color: #fff;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.mainmenu a:hover {
+  color: yellow;
+  background: rgba(0, 0, 0, .2);
+}
+
+#menuwrap {
+  background: #33605a;
+}
+
+ul.mainmenu {
+  margin: 0;
+}
+
+/*end navigation*/
+
+/*main*/
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  color: black;
+}
+
+
+
+/*end main*/
+
+#herobanner picture.photoA img {
+  width: 100%;
+  display: block;
+}
+
+.gallery figure {
+  margin: 20px;
+}
+
+.gallery figcaption {
+  text-align: center;
+}
+
+
+
+.gallery img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.gallery {
+  display: block;
+}
+
+figure img:hover {
+  box-shadow: 0px 1px 57px 0px rgb(0 0 0 / 24%);
+  -webkit-box-shadow: 0px 1px 57px 0px rgb(0 0 0 / 24%);
+  -moz-box-shadow: 0px 1px 57px 0px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+/*
+figure {
+  margin: 0;
+}
+
+figure#hero h3 {
+  margin: 0;
+}
+
+
+
+#hero {
+  position: relative;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#hero figcaption {
+  position: unset;
+}
+
+#hero figcaption {
+  position: unset;
+  top: 2rem;
+  background: rgb(51, 96, 90, 1);
+  left: 2rem;
+  border-radius: 0;
+  color: white;
+  padding: 20px;
+}
+
+figure img {
+  display: block;
+}
+*/
+
+#herobanner {
+  position: relative;
+}
+
+#herobanner #herocase {
+  position: unset;
+  top: 2rem;
+  background: rgb(51, 96, 90, 1);
+  left: 2rem;
+  border-radius: 0;
+  color: white;
+  padding: 20px;
+}
+
+/*end hero*/
+
+.section1 h3 {
+  background: #d1c2a8;
+  margin: 0;
+  color: black;
+  padding: 10px;
+  font-weight: 500 !important;
+}
+
+.section1 div {
+  border: solid 1px #c7b597;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.section1 img {
+  margin: 10px 0;
+  width: 50%;
+}
+
+.section2 div {
+  padding-bottom: 10px;
+}
+
+
+.showme {
+  display: block;
+}
+
+.hideme {
+  display: none;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.mainmenu li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="mainmenu responsive">
+  */
+.hidden li {
+  display: block;
+}
+
+
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  font-size: 14px;
+}
+
+main .section1 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+
+  background-color: #e9e0d1;
+}
+
+main .section2 {
+  border: 1px solid #beb7a9;
+  padding: 1rem;
+  margin: 10px 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e9e0d1;
+}
+
+
+
+iframe {
+  width: 100%;
+  border: solid 1px #979188 !important;
+}
+
+article img {
+  float: none;
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+section.section2>div:nth-child(3) {
+  grid-column: 1/-1;
+}
+
+#message {
+  text-align: center;
+  background: #2e160a;
+  color: white;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+article {
+  margin: 20px;
+}
+
+.section2 h3 {
+  margin-bottom: 0;
+}
+
+ul.mainmenu li a {
+  text-align: center;
+}
+
+/*form*/
+
+
+
+
+form fieldset {
+  border: 1px solid #ccc;
+  padding: .5rem 2%;
+  background: #fbfbfb;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+form legend {
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  text-align: center;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+}
+
+label.top.lesstop {
+  padding-top: 0 !important;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .75rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
+}
+
+input.submitButton {
+  margin: auto;
+  /* text-align: center; */
+  display: block;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+  margin-top: 5px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+textarea {
+  width: 100%;
+  height: 10rem;
+}
+
+input.submitButton {
+  width: 85%;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  background: #33605a;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+label.sbs.addtop {
+  margin-top: 10px;
+}
+
+div#thanks h1 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1em;
+  margin: 0;
+}
+
+div#thanks {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+
+main img {
+  border-style: none;
+  width: 100%;
+}
+
+.cards p {
+  font-size: .8rem;
+  text-align: center;
+}
+
+.cards h2 {
+  text-align: center;
+  background: #745646;
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+
+.cards section {
+  border: 1px solid #ccc;
+  margin: 15px;
+}
+
+.cards {
+  display: block;
+}
+
+.cards section img {
+  display: block;
+}
+
+
+
+
+
+
+div#footnote {
+  background: #294d48;
+  padding: 10px 20px;
+  text-align: center;
+
+}
+
+div#ftop {
+  background: #33605a;
+  padding: 32px 0;
+}
+
+/*
+#addy div:nth-child(2) {
+  grid-column: 2/-1;
+}*/
+
+#ftop #social li {
+  display: inline;
+  color: white;
+}
+
+#addy #social li a {
+  color: white;
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+#addy #social li a:hover {
+  color: yellow;
+}
+
+#addy ul#social {
+  padding: 0;
+}
+
+ul#loc {
+  padding-left: 20px;
+  list-style: none;
+}
+
+ul#loc li {
+  margin-bottom: 10px;
+}
+
+ul#loc li#one:before {
+  font-family: 'FontAwesome';
+  content: '\f041';
+  margin: 0 5px 0 -15px;
+}
+
+ul#loc li#two:before {
+  font-family: 'FontAwesome';
+  content: '\f095';
+  margin: 0 5px 0 -15px;
+}
+
+ul#loc li#three:before {
+  font-family: 'FontAwesome';
+  content: '\f0e0';
+  margin: 0 5px 0 -15px;
+}
+
+footer div#addy {
+  display: block;
+  max-width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h2#place,
+h2#place2 {
+  max-width: 67rem;
+  margin: 0 auto;
+  color: white;
+  font-weight: 300;
+  font-size: .9rem;
+  padding: 0 15px;
+  text-align: center;
+  font-weight: 400 !important;
+}
+
+
+div#titletop {
+  background: #294d48;
+  padding: 10px 0;
+}
+
+div#addy a {
+  color: white;
+  text-decoration: none;
+}
+
+div#addy a:hover {
+  color: yellow;
+}
+
+#herobanner2 {
+  background-image: url("../images/meteorologist.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+}
+
+div#herobanner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#herobanner2 div {
+  background-color: rgba(72, 34, 15, 0.8);
+  width: 100%;
+  text-align: center;
+}
+
+#herobanner2 h2 {
+  font-size: 2rem;
+  font-weight: 800 !important;
+  padding: 20px 0;
+  color: white;
+  line-height: 1em;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+
+
+  .mainmenu {
+    display: flex;
+  }
+
+  .mainmenu li:first-child {
+    display: none;
+  }
+
+  .mainmenu li {
+    display: block;
+    flex: 1 1 10%;
+  }
+
+  .mainmenu li a {
+    color: #fff;
+  }
+
+
+  main.section1 {
+    display: none;
+  }
+
+
+
+}

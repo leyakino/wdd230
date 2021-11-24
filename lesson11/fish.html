@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Leo Aquino">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="description"
+    content="Fish Haven information center: learn more about Fish Haven weather, towns, and events">
+  <title>South East Climate - Idaho</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/small.css" />
+  <link rel="stylesheet" type="text/css" href="css/medium.css" />
+  <link rel="stylesheet" type="text/css" href="css/large.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="message">The message about Sunday Church</div>
+  <header>
+    <img src="images/logo2.png" alt="South East Climate">
+    <h1 id="toplogo"><span id="color1">south</span><span id="color2">east</span><span id="color3">climate</span></h1>
+    <p id="slogan">Reporting Accurate Weather Since 1949</p>
+  </header>
+  <div id="menuwrap">
+    <nav>
+      <ul class="mainmenu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="soda.html">Soda Springs</a></li>
+        <li class="active"><a href="fish.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="titletop">
+    <h2 id="place"></h2>
+  </div>
+  <main>
+
+    <div id="herobanner">
+      <picture class="photoA">
+        <source media="(max-width: 200px)" srcset="images/fish-200.jpg">
+        <source media="(max-width: 500px)" srcset="images/fish-500.jpg">
+        <source media="(max-width: 800px)" srcset="images/fish-800.jpg">
+        <img src="images/fish-1100.jpg" alt="">
+      </picture>
+      <div id="herocase">
+        <h3>Weather Summary</h3>
+        Currently: <span id="current">Sunny</span><br>
+        High: <span id="temp">32</span>&deg;<br>
+        Humidity: <span id="humid">55</span>%<br>
+        Windspeed: <span id="speed">60</span> mph <br>
+        WindChill: <span id="chill">5</span>
+      </div>
+    </div>
+    <!--<figure id="hero"><img src="images/idaho.jpg">
+      <figcaption>
+        <h3>Weather Summary</h3>
+        High: <span id="temp">32</span>&deg;<br>
+        Humidity: 55%<br>
+        Windspeed: <span id="speed">60</span> mph <br>
+        WindChill: <span id="chill">5</span>
+      </figcaption>
+    </figure>-->
+    <h2 id="five">Five Day Forecast</h2>
+    <section class="section1">
+      <div>
+        <h3 id="day1">Monday</h3>
+        <img src="images/sun.svg" id="weatherimage1" alt=""><br>
+        <span id="forecastday1"></span>&deg; F
+      </div>
+      <div>
+        <h3 id="day2">Tuesday</h3>
+        <img src="images/sun.svg" id="weatherimage2" alt=""><br>
+        <span id="forecastday2"></span>&deg; F
+      </div>
+      <div>
+        <h3 id="day3">Wednesday</h3>
+        <img src="images/sun.svg" id="weatherimage3" alt=""><br>
+        <span id="forecastday3"></span>&deg; F
+      </div>
+      <div>
+        <h3 id="day4">Thursday</h3>
+        <img src="images/cloudy.svg" id="weatherimage4" alt=""><br>
+        <span id="forecastday4"></span>&deg; F
+      </div>
+      <div>
+        <h3 id="day5">Friday</h3>
+        <img src="images/sun.svg" id="weatherimage5" alt=""><br>
+        <span id="forecastday5"></span>&deg; F
+      </div>
+    </section>
+    <article>
+      <h2>Article Title</h2>
+      <img src="images/man-fishing.jpg" alt="Man fishing">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend nisi at nulla pellentesque imperdiet.
+        Maecenas sed mattis ipsum. In quam magna, pellentesque sit amet ultricies in, sollicitudin vel ligula. Nunc
+        augue justo, tristique at rutrum eget, maximus quis est. In aliquet odio congue urna consequat ullamcorper.
+        Donec finibus velit at mauris porttitor sodales. Maecenas vehicula id orci sit amet bibendum. Suspendisse ut
+        pretium eros, sit amet iaculis felis. Cras urna eros, rutrum malesuada mollis a, egestas non leo. Integer in
+        semper velit. Vestibulum rutrum eu enim at hendrerit. Mauris et justo eget nibh luctus finibus ac id eros. Nunc
+        ullamcorper, sapien ac sollicitudin vehicula, turpis elit sollicitudin magna, vitae sodales justo nunc eget
+        sapien. Aenean bibendum est diam, a consectetur velit fermentum vitae. Maecenas ullamcorper libero aliquet
+        faucibus malesuada. Nullam a justo nec ex mattis pulvinar.</p>
+      <p>
+
+        Etiam a purus in ipsum molestie tristique. Nunc in libero cursus lorem varius commodo. Nulla sit amet lectus ut
+        velit imperdiet mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis tortor in felis
+        elementum tempor. Cras laoreet nec ex et placerat. Nullam lacinia turpis eget libero posuere, eget rutrum dui
+        rhoncus.
+      </p>
+
+
+    </article>
+    <article>
+      <h2>Upcoming Events:</h2>
+      <hr>
+      <ul id="events">
+      </ul>
+    </article>
+    <!--
+    <h2 id="contact">Contact Us</h2>
+    <section class="section2">
+      <div>
+        <h3>Address:</h3>
+        The Weather Center<br>
+        123 Main Street.<br>
+        Franklin, MI 87654
+
+      </div>
+      <div>
+        <h3>Phone:</h3>
+        (801) 555-1234<br>
+        Email:<a href="mailto:contact@yoururl.com">contact@yoururl.com</a>
+
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277333!2d-111.91534437001668!3d42.09980531171999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1634399071427!5m2!1sen!2sph"
+          height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+    </section>
+  -->
+  </main>
+  <footer>
+    <div id="ftop">
+      <div id="addy">
+        <div><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4864527362342!2d-111.87576958455196!3d42.097051479205426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1637637854594!5m2!1sen!2sph"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div>
+          <strong>Address:</strong>
+          <ul id="loc">
+            <li id="one">30 N 1st E Preston, ID 83263</li>
+            <li id="two"> <a href="tel:999999999" target="blank">999.999.999</a></li>
+            <li id="three"><a href="mailto:email@southeastclimate.com" target="blank"> email@southeastclimate.com</a>
+          </ul>
+
+
+          <ul id="social">
+            <li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.whatsapp.com/" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footnote">
+      <p>&copy;Leo Y. Aquino | <span id="lastupdated"></span> | Last Visit: <span id="bwisit"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fontload.js"></script>
+  <script src="js/weatherapi-fish.js"></script>
+  <script src="js/windchill-fish.js"></script>
+  <script src="js/lastvisit.js"></script>
+  <script src="js/events.js"></script>
+</body>
+
+</html>
