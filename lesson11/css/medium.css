@@ -1,5 +1,25 @@
 @media only screen and (min-width: 32.5em) {
+  .mainmenu {
+    display: flex;
+  }
 
+  .mainmenu li:first-child {
+    display: none;
+  }
+
+  .mainmenu li {
+    display: block;
+    flex: 1 1 10%;
+  }
+
+  .mainmenu li a {
+    color: #fff;
+  }
+
+
+  main.section1 {
+    display: none;
+  }
 
 
 
