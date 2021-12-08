@@ -1,0 +1,224 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*main menu and header*/
+
+#topMenu {
+    width: 75%;
+    margin: auto;
+}
+
+#topMenu nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float:right;
+}
+
+#topMenu nav li {
+    float: left;
+}
+
+header#topMenu #bottomm {
+    text-align: right;
+    width: 100%;
+}
+
+header#topMenu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul li.active a {
+  background: #062b6f;
+  color: white;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    padding: .7rem .9rem;
+    width: 7rem;
+    text-align: center;
+    display: inline-block;
+    font-size: .9rem;
+}
+
+.mainmenu a:hover {
+    background: #062b6f;
+    color: white;
+}
+
+
+#togbtn{
+    display: none;
+}
+
+a#togbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    margin: 10px;
+    background: #1d55bc;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 9999999999999;
+    color: white;
+}
+
+.hide{
+    display: none;
+    
+}
+
+#togbtn span:nth-child(2) {
+    display: none;
+}
+
+
+
+
+#bottomm {
+    display: block;
+    
+}
+
+/*end main menu and header*/
+
+/*hero*/
+
+div#herobanner {
+    width: 75%;
+    margin: auto;
+}
+
+div#hero {
+    background: url("../images/municipal-hall-bg.jpg");
+    background-size: cover;
+    height: 383px;
+    align-items: center;
+    display: flex;
+}
+
+div#herobanner h1 {
+    color: #fff;
+    line-height: 1em;
+    font-size: 4rem;
+}
+
+.kulay{
+    color: #f9d490;
+}
+
+/*section one*/
+
+.wsize {
+    width: 75%;
+    margin: 35px auto;
+    padding: 35px 0 35px 0;
+}
+
+section#secone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+}
+
+figure{
+        margin: 0;
+        
+    }
+    
+    figure img{
+        width: 100%;
+    }
+
+/*section two*/
+
+section#sectwo {
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+a.whitebtn {
+    background: #fff;
+    text-decoration: none;
+    color: #062b6f;
+    font-weight: bold;
+    padding: 26px 30px 26px 30px;
+    font-size: 3rem;
+    display: inline-block;
+    margin: 25px 0;
+}
+
+a.whitebtn:hover  {
+    background: #062b6f;
+    color: #fff;
+}
+
+section#sectwo p {
+    width: 90%;
+    margin: auto;
+}
+
+/*section 3*/
+
+h2.headt {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+/*home page*/
+
+#secthree .directories section:nth-child(n+4) {
+    display: none;
+}
+
+#secthree .directories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.directories section {
+    border: solid 1px #ccc;
+    margin-top: 35px;
+    padding: 1.5rem;
+}
+
+/*
+
+@media only screen and (min-width: 32.5em) {
+    #yo{
+        color: red;
+    }
+    
+}
+
+@media only screen and (min-width: 89em) {
+#yo{
+        color: cornflowerblue;
+    }
+
+
+}*/

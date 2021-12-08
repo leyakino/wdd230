@@ -1,0 +1,29 @@
+@media (max-width: 1024px){
+
+/*main menu and header*/
+    .mainmenu a {
+    padding: 10px 0;
+    width: 4.8rem;
+    font-size: .8em;
+}
+   
+#topMenu {
+    width: 100%;
+}
+
+/*end main menu and header*/
+    
+    div#herobanner h1 {
+    font-size: 2.5rem;
+}
+    
+    /*section one*/
+    
+    section#secone {
+    display: block;
+}
+    figure img {
+        margin: 15px 0;
+    }
+
+}

@@ -1,0 +1,101 @@
+@media screen and (max-width: 567px) {
+
+/*main menu and header*/
+    #topMenu nav ul {
+    list-style-type: none;
+    padding: 0;
+    float: none;
+    margin: 50px 0 0 0;
+}
+
+#topMenu nav li {
+    float: none;
+    padding: 2px 26px;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    padding: .7rem .9rem;
+    width: unset;
+    text-align: left;
+    display: block;
+    color: white  !important;
+}
+    
+.mainmenu a:hover {
+    background: #062b6f;
+    width: 100%;
+}
+
+nav ul li.active a {
+    background: unset;
+    color: unset;
+}
+
+header#topMenu {
+    display: block;
+    align-items: unset;
+}
+
+#topMenu img {
+    margin: auto;
+    display: block;
+}
+
+#topMenu {
+    width: 100%;
+    margin: auto;
+    background: #e6e6e6;
+}
+
+#bottomm {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: 9999999;
+    background-color: rgba(0, 0, 0, .9);
+}
+    
+   
+
+header#topMenu {
+    display: block;
+    align-items: unset;
+}
+    
+    #togbtn{
+    display: block;
+}
+    
+    .hide{
+    display: none;
+    
+}   
+    
+/*#bottomm.hide{
+    display: none;
+}*/
+   
+/*main menu and header*/
+    div#herobanner h1 {
+    text-align: center;
+}
+
+/*section one*/
+    section#secone {
+    display: block;
+}
+    
+    
+    
+    .wsize {
+    width: 100%;
+    margin: auto 0;
+    padding: 35px;
+}
+   a.whitebtn {
+    padding: 17px 15px 17px 15px;
+    font-size: 2rem;
+}
+
+}
