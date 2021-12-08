@@ -1,7 +1,7 @@
 {
   "directories": [
     {
-      "photo": "../images/pic-ang.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-ang.jpg",
       "name": "AngNewNo Arts, Design, and Cafe Restaurant", 
       "slogan": "Built by Passion; Feed your Senses",    
       "about": "An ecologically friendly cafe showcasing works of our local artists. Collection includes furniture, paintings, sculptures and other accent pieces. Our design pieces/furniture are made from old hardwoods. Good food, visually stimulating, creative ambiance, soft/acoustic music = one great hangout place!",
@@ -10,7 +10,7 @@
       "url": "www.facebook.com/AngNewNo"
     },
     {
-      "photo": "../images/pic-food.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-food.jpg",
       "name": "FoodGazing",  
       "slogan": "Good Food That Will Definitely Satisfies Your Cravings.",
       "about": "We Guarantee to make your Cravings Satisfied. We provide Good Quality food that will make your tummy happy.",
@@ -19,7 +19,7 @@
       "url": "www.facebook.com/Foodgazing"
     },
     {
-      "photo": "../images/pic-balaw.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-balaw.jpg",
       "name": "Balaw Balaw Restaurant And Art Gallery",      
       "slogan": "A taste of home",
       "about": "Located 30 km. west from Manila, Balaw- Balaw opened on October 30 1982 by spouses Perdigon N. Vocalan an Angono Artist and Luzvimin L. Vocalan a former high school teacher.",
@@ -28,7 +28,7 @@
       "url": "www.facebook.com/BalawBalaw"
     },
     {
-      "photo": "../images/pic-una.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-una.jpg",
       "name": "Unamonte Mountain Resort",     
       "slogan": "It's not just a resort – it's an experience!",
       "about": "Unamonte Mountain Resort is a private resort that is good for team buildings, reunions, parties, debut and other occasions.",
@@ -37,7 +37,7 @@
       "url": "www.facebook.com/UnamonteMountainResort"
     },
     {
-      "photo": "../images/pic-toy.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-toy.jpg",
       "name": "Toy Diesel Calibration", 
       "slogan": "Complete solutions to breakdowns",
       "about": "At Toy Diesel we clean, run the pump on the test bench, and then strip the pump to observe any damage to internal parts. Once this is done, we contact the client to give them a quote on what needs to be repaired in order for the pump to function perfectly again.",
@@ -46,7 +46,7 @@
       "url": "https://www.facebook.com/toydieselcalibration"
     },
     {
-      "photo": "../images/pic-scrap.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-scrap.jpg",
       "name": "Scrapyard Resort",   
       "slogan": "Come for the fun, stay for the memories.",
       "about": "Scrapyard Resort is ideal for family outings, excursions, seminars, workshops, weddings, birthday celebrations, conferences, baptisms, and other special occasions.",
@@ -56,7 +56,7 @@
     },
       
     {
-      "photo": "../images/pic-neu.jpg",
+      "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-neu.jpg",
       "name": "Neurika Lounge & Spa",   
       "slogan": "The ultimate place to relax and unwind your body!",
       "about": "Neurika lounge & Spa offers deluxe services that help restore health, revitalize sore muscles, replenish tired bodies, and revive the mind with fresh holistic practices that merge traditional healing with contemporary wellness.",
