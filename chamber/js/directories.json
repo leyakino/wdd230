@@ -7,7 +7,7 @@
       "about": "An ecologically friendly cafe showcasing works of our local artists. Collection includes furniture, paintings, sculptures and other accent pieces. Our design pieces/furniture are made from old hardwoods. Good food, visually stimulating, creative ambiance, soft/acoustic music = one great hangout place!",
       "address": "#6 Manila East Road, Bgy. San Roque 1930 Angono, Rizal",
       "phone": "0910 997 5616",
-      "url": "www.facebook.com/AngNewNo"
+      "url": ["https://www.facebook.com/AngNewNo"]
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-food.jpg",
