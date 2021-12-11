@@ -7,7 +7,7 @@
       "about": "An ecologically friendly cafe showcasing works of our local artists. Collection includes furniture, paintings, sculptures and other accent pieces. Our design pieces/furniture are made from old hardwoods. Good food, visually stimulating, creative ambiance, soft/acoustic music = one great hangout place!",
       "address": "#6 Manila East Road, Bgy. San Roque 1930 Angono, Rizal",
       "phone": "0910 997 5616",
-      "url": ["https://www.facebook.com/AngNewNo"]
+      "url": "https://www.facebook.com/AngNewNo"
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-food.jpg",
@@ -16,7 +16,7 @@
       "about": "We Guarantee to make your Cravings Satisfied. We provide Good Quality food that will make your tummy happy.",
       "address": "Doña Aurora St, Angono, 1930 Rizal, Philippines",
       "phone": "09473035810",
-      "url": "www.facebook.com/Foodgazing"
+      "url": "https://www.facebook.com/Foodgazing"
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-balaw.jpg",
@@ -25,7 +25,7 @@
       "about": "Located 30 km. west from Manila, Balaw- Balaw opened on October 30 1982 by spouses Perdigon N. Vocalan an Angono Artist and Luzvimin L. Vocalan a former high school teacher.",
       "address": "#11 Don Justo, Dona Justa Village 1930 Angono, Rizal",
       "phone": "+63286510110",
-      "url": "www.facebook.com/BalawBalaw"
+      "url": "https://www.facebook.com/BalawBalaw"
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-una.jpg",
@@ -34,7 +34,7 @@
       "about": "Unamonte Mountain Resort is a private resort that is good for team buildings, reunions, parties, debut and other occasions.",
       "address": "Eastridge Binangonan Rizal",
       "phone": "09778439450",
-      "url": "www.facebook.com/UnamonteMountainResort"
+      "url": "https://www.facebook.com/UnamonteMountainResort"
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-toy.jpg",
@@ -43,7 +43,7 @@
       "about": "At Toy Diesel we clean, run the pump on the test bench, and then strip the pump to observe any damage to internal parts. Once this is done, we contact the client to give them a quote on what needs to be repaired in order for the pump to function perfectly again.",
       "address": "Manila East Road, Angono, Rizal",
       "phone": "09395104750",
-      "url": "https://www.facebook.com/toydieselcalibration"
+      "url": "https://https://www.facebook.com/toydieselcalibration"
     },
     {
       "photo": "https://leyakino.github.io/wdd230/chamber/images/pic-scrap.jpg",
@@ -52,7 +52,7 @@
       "about": "Scrapyard Resort is ideal for family outings, excursions, seminars, workshops, weddings, birthday celebrations, conferences, baptisms, and other special occasions.",
       "address": "Manila East Road, Brgy. San Roque 1930 Angono, Rizal",
       "phone": "(02)6513399",
-      "url": "scrapyardresort.wix.com/scrapyardresort"
+      "url": "https://scrapyardresort.wix.com/scrapyardresort"
     },
       
     {
@@ -62,7 +62,7 @@
       "about": "Neurika lounge & Spa offers deluxe services that help restore health, revitalize sore muscles, replenish tired bodies, and revive the mind with fresh holistic practices that merge traditional healing with contemporary wellness.",
       "address": "Quezon Rd. Angono Rizal",
       "phone": "09163300416",
-      "url": "neurika.wixsite.com/angono"
+      "url": "https://neurika.wixsite.com/angono"
     }
   ]
 }
