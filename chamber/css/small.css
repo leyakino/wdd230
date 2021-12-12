@@ -1,27 +1,25 @@
 html,
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
     padding: 0;
-  margin: 0;
+    margin: 0;
 }
 
-body {
-  
-    
-}
+body {}
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+/*
 p, ul, a, figcaption{
     font-size: .8rem;
-}
+}*/
 
 /*main menu and header*/
 
@@ -34,7 +32,7 @@ p, ul, a, figcaption{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    float:right;
+    float: right;
 }
 
 #topMenu nav li {
@@ -53,8 +51,8 @@ header#topMenu {
 }
 
 nav ul li.active a {
-  background: #062b6f;
-  color: white;
+    background: #062b6f;
+    color: white;
 }
 
 .mainmenu a {
@@ -72,7 +70,7 @@ nav ul li.active a {
 }
 
 
-#togbtn{
+#togbtn {
     display: none;
 }
 
@@ -89,9 +87,9 @@ a#togbtn {
     color: white;
 }
 
-.hide{
+.hide {
     display: none;
-    
+
 }
 
 #togbtn div:nth-child(2) {
@@ -103,7 +101,7 @@ a#togbtn {
 
 #bottomm {
     display: block;
-    
+
 }
 
 /*end main menu and header*/
@@ -129,7 +127,7 @@ div#herobanner h1 {
     font-size: 4rem;
 }
 
-.kulay{
+.kulay {
     color: #f9d490;
 }
 
@@ -137,7 +135,7 @@ div#herobanner h1 {
 
 .wsize {
     width: 75%;
-        margin: 35px auto 0 auto;
+    margin: 35px auto 0 auto;
     padding: 55px 0 55px 0;
 }
 
@@ -159,14 +157,14 @@ div#herobanner h1 {
     grid-gap: 35px;
 }
 
-figure{
-        margin: 0;
-        
-    }
-    
-    figure img{
-        width: 100%;
-    }
+figure {
+    margin: 0;
+
+}
+
+figure img {
+    width: 100%;
+}
 
 /*section two*/
 
@@ -188,7 +186,7 @@ a.whitebtn {
     margin: 25px 0;
 }
 
-a.whitebtn:hover  {
+a.whitebtn:hover {
     background: #062b6f;
     color: #fff;
 }
@@ -206,7 +204,7 @@ a.bluebtn {
     text-align: center;
 }
 
-a.bluebtn:hover  {
+a.bluebtn:hover {
     color: yellow;
 }
 
@@ -451,7 +449,8 @@ form label.top input:required {
     margin-top: 5px;
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
     display: block;
     font-size: 1rem;
     border: 1px solid #999;
@@ -525,6 +524,7 @@ div#boxers {
 div#boxers figcaption {
     text-align: center;
 }
+
 /*
 
 @media only screen and (min-width: 32.5em) {
