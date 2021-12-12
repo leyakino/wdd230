@@ -7,7 +7,7 @@ return response.json();
 console.table(jsonObject);
 const directories = jsonObject["directories"];
 for (let i = 0; i < directories.length; i++ ) {
-  console.table(i);
+  //console.table(i);
 
     let card = document.createElement("section");
   let text = document.createElement("div");
@@ -18,8 +18,9 @@ for (let i = 0; i < directories.length; i++ ) {
     let p4 = document.createElement("p");
     let p5 = document.createElement("p");
     let p6 = document.createElement("p");
-    let div = document.createElement("div");
+    let divs = document.createElement("div");
     let image = document.createElement("img");
+    let web = document.createElement("a");
     
     
     image.setAttribute('src', directories[i].photo);
@@ -31,8 +32,15 @@ for (let i = 0; i < directories.length; i++ ) {
     p3.innerHTML = `<strong>About:</strong> ${directories[i].about}`;
     p4.innerHTML = `<strong>Address:</strong> ${directories[i].address}`;
     p5.innerHTML = `<strong>Phone:</strong> ${directories[i].phone}`;
-    p6.innerHTML = `<strong>URL:</strong> ${directories[i].url}`;
+    //p6.innerHTML = `<strong>URL:</strong> ${directories[i].url}`;
+    web.innerHTML = `${directories[i].short}`;
+    //web.href = `${directories[0].url}`;
+    web.setAttribute("href", `${directories[0].url}`);
+    web.setAttribute("target", "blank");
     
+    
+    card.appendChild(divs);
+    divs.appendChild(image);
     card.appendChild(text);
     text.appendChild(h2);
     //text.appendChild(p1);
@@ -41,8 +49,9 @@ for (let i = 0; i < directories.length; i++ ) {
     text.appendChild(p4);
     text.appendChild(p5);
     text.appendChild(p6);
-    div.appendChild(image);
+    text.appendChild(web);
+    
     document.querySelector("div.directories").appendChild(card);
-    console.log(card);
+    //console.log(divs);
 }
 })

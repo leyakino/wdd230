@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of the Angono Chamber of Commerce">
+    <meta name="author" content="Leo Aquino">
+    <title>Angono Chamber of Commerce - Directory</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" defer></script>
+    <script src="js/directories.js" defer></script>
+    <script src="js/js.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+    <script src="js/lastupdated.js" defer></script>
+    <script src="js/listgrid.js" defer></script>
+  </head>
+  <body>
+    <header id="topMenu">
+      <div id="topm"><img src="images/logo.png" alt="Company Logo"></div><a href="#" onclick="toggleMenu()" id="togbtn"><span>&#9776;</span><span><i class="fa fa-times"></i></span></a>
+      <div id="bottomm" class="hide">
+        <nav>
+          <ul class="mainmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="hero">
+        <div id="herobanner">
+          <h1>DIRECTORY</h1>
+        </div>
+      </div>
+        
+      <div id="direct" class="wsize3">
+          <a href="#" onclick="listver()" class="listbtn"><i class="fa fa-bars"></i></a>
+          <a href="#" onclick="gridver()" class="listbtn"><i class="fa fa-th-large"></i></a>
+              <div class="directories"></div>
+      </div>
+      <!--<h2 class="headt">OTHER INFO</h2>-->
+      <section id="secfive">
+        <div id="box1">
+          <div id="wbox1">
+            <h2>ADVERTISING</h2>
+            <div id="advert">
+              <figure>
+                <img src="images/adv1.jpg" alt="Food Delivery Poster">
+                <figcaption>Toktok Food Delivery</figcaption>
+              </figure>
+              <figure>
+                <img src="images/adv2.jpg" alt="Online Shopping Ad">
+                <figcaption>Online Shopping Mall</figcaption>
+              </figure>
+              <figure>
+                <img src="images/adv3.jpg" alt="Siomai King Ad">
+                <figcaption>Siomai King Food Business</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div id="box2">
+          <div id="wbox2">
+            <h2>3 DAY FORECAST</h2>
+            <div class="weathcont"></div>
+            <h2 style="margin-top: 25px;">WEATHER SUMMARY</h2>
+            <strong>Currently:</strong>
+            <span id="current">Sunny</span>
+            <br>
+            <strong>High:</strong>
+            <span id="temp">32</span>&deg; <br>
+            <strong>Humidity:</strong>
+            <span id="humid">55</span>%
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="mainfooter">
+        <div>
+          <h3>ADDRESS:</h3>
+          <hr> <p>M.L. Quezon Avenue, Angono, Rizal</p>
+        </div>
+        <div>
+          <h3>PHONE:</h3>
+            <hr> <a href="tel:026510061">651-0061</a>
+        </div>
+        <div>
+          <h3>MENU:</h3>
+          <hr>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="join.html">Join Us</a>
+            </li>
+            <li>
+              <a href="directory.html">Directory</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>SOCIAL:</h3>
+          <hr>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/AngonoPIO" target="blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/angonorizal/?hl=en" target="blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/angono_rizal" target="blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div id="footnote">
+      <p>&copy;Leo Y. Aquino | Last Modified: <span id="lastupdated"></span>
+      </p>
+    </div>
+  </body>
+</html>

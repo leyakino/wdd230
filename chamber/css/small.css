@@ -6,15 +6,21 @@ body {
 html {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5em;
+    padding: 0;
+  margin: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
+  
+    
 }
 
 * {
   box-sizing: border-box;
+}
+
+p, ul, a, figcaption{
+    font-size: .8rem;
 }
 
 /*main menu and header*/
@@ -88,7 +94,7 @@ a#togbtn {
     
 }
 
-#togbtn span:nth-child(2) {
+#togbtn div:nth-child(2) {
     display: none;
 }
 
@@ -131,11 +137,23 @@ div#herobanner h1 {
 
 .wsize {
     width: 75%;
-    margin: 35px auto;
-    padding: 35px 0 35px 0;
+        margin: 35px auto 0 auto;
+    padding: 55px 0 55px 0;
 }
 
-section#secone {
+.wsize2 {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.wsize3 {
+    width: 75%;
+    margin: 25px auto;
+    padding: 0 0 10px 0;
+}
+
+#secone {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
@@ -152,7 +170,7 @@ figure{
 
 /*section two*/
 
-section#sectwo {
+#sectwo {
     background: url("../images/bg2.jpg");
     background-size: cover;
     color: white;
@@ -175,6 +193,23 @@ a.whitebtn:hover  {
     color: #fff;
 }
 
+a.bluebtn {
+    background: #062b6f;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 26px 30px 26px 30px;
+    font-size: 2rem;
+    display: table;
+    margin: 25px auto;
+    line-height: 1em;
+    text-align: center;
+}
+
+a.bluebtn:hover  {
+    color: yellow;
+}
+
 section#sectwo p {
     width: 90%;
     margin: auto;
@@ -185,7 +220,13 @@ section#sectwo p {
 h2.headt {
     font-size: 2.5rem;
     text-align: center;
-    margin: 0;
+    margin: 31px 0 35px 0;
+}
+
+h2.headw {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 0 35px 0;
 }
 
 /*home page*/
@@ -202,10 +243,288 @@ h2.headt {
 
 .directories section {
     border: solid 1px #ccc;
-    margin-top: 35px;
     padding: 1.5rem;
 }
 
+.directories img {
+    width: 100%;
+}
+
+section#secfour {
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#secfour .events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+#secfour img {
+    width: 100%;
+}
+
+.events div {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    text-align: left;
+    color: black;
+    background: rgba(255, 255, 255, .9);
+    margin-bottom: 35px;
+}
+
+section#secfive {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div#box1 {
+    background: #dfeaff;
+}
+
+div#box2 {
+    background: #031637;
+}
+
+div#wbox2 {
+    width: 75%;
+}
+
+div#wbox1 {
+    width: 75%;
+    float: right;
+    padding: 35px;
+}
+
+div#wbox1 h2 {
+    margin-top: 0;
+}
+
+#secfive h4 {
+    margin: 0;
+}
+
+div#wbox2 {
+    width: 75%;
+    color: white;
+    padding: 35px;
+}
+
+div#wbox2 h2 {
+    margin-top: 0;
+}
+
+.weathcont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.weathercontainer {
+    background: #328dc3;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    height: 5.5rem;
+}
+
+footer {
+    background: #163357;
+    color: white;
+    padding: 15px 0;
+}
+
+div#mainfooter {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+div#mainfooter div:nth-child(4) ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 2rem;
+}
+
+footer a:hover {
+    color: #86d2ff;
+}
+
+div#advert {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    text-align: center;
+}
+
+
+
+div#footnote {
+    text-align: center;
+    background: #204777;
+    margin: 0;
+    padding: 6px 0;
+    color: white;
+}
+
+/*inner pages*/
+
+.floatleft {
+    float: left;
+    padding: 0 35px 35px 0;
+}
+
+.floatright {
+    float: right;
+    padding: 0 0 35px 35px;
+}
+
+/*directory*/
+
+#direct .directories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+/*grids*/
+
+.directories.list {
+    display: block !important;
+}
+
+.directories.list section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.directories.list section div:nth-child(2) {
+    grid-column: 2/-1;
+}
+
+.directories.list section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+    margin-bottom: 35px;
+}
+
+#direct a.listbtn {
+    background: #d1caca;
+    display: inline-block;
+    color: #5c5c5c;
+    font-size: .9rem;
+    padding: 12px 18px;
+    text-align: right;
+    margin-bottom: 10px;
+    /* float: right; */
+}
+
+/*form*/
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+    margin-top: 5px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 10rem;
+}
+
+form fieldset {
+    margin: 25px auto;
+    box-sizing: border-box;
+}
+
+/*join us*/
+
+input.submitBtn {
+    background: #22408a;
+    border: unset;
+    padding: 10px 15px;
+    color: white;
+}
+
+.joinus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.joinus div:nth-child(2) {
+    grid-column: 2/-1;
+}
+
+.joinus div {
+    padding: 0 35px;
+}
+
+/*thank you*/
+
+.thanks h2 {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.thanks p {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1em;
+}
+
+iframe#mapa {
+    width: 100%;
+    height: 300px;
+}
+
+/*board of directors*/
+div#boxers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+div#boxers figcaption {
+    text-align: center;
+}
 /*
 
 @media only screen and (min-width: 32.5em) {

@@ -19,11 +19,73 @@
     
     /*section one*/
     
-    section#secone {
+    #secone {
     display: block;
 }
     figure img {
         margin: 15px 0;
     }
+    
+    #secthree .directories {
+    grid-template-columns: repeat(2, 1fr);
+}
+    #secfour .events {
+    grid-template-columns: repeat(2, 1fr);
+}
+    
+    div#advert {
+    grid-template-columns: repeat(2, 1fr);
+}
+    
+        .floatleft {
+    float: none;
+    padding: 0;
+}
+
+.floatright {
+    float: none;
+    padding: 0;
+}
+    
+        img.floatleft {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+img.floatright {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+    .weathcont {
+    grid-template-columns: repeat(2, 1fr);
+}
+    
+    #direct .directories {
+        grid-template-columns: repeat(2, 1fr);
+        
+}
+    #direct .directories section {
+    margin-bottom: 35px;
+        
+}
+   .wsize3 {
+    width: unset;
+    margin: 15px 15px;
+    padding: 0;
+}
+    
+    .joinus {
+    display: block;
+}
+    
+    .wsize.joinus {
+    padding: 0 0 35px 0;
+}
+    
+    div#boxers {
+    display: block;
+}
 
 }

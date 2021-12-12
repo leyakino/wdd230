@@ -45,7 +45,6 @@ header#topMenu {
 #topMenu {
     width: 100%;
     margin: auto;
-    background: #e6e6e6;
 }
 
 #bottomm {
@@ -82,7 +81,7 @@ header#topMenu {
 }
 
 /*section one*/
-    section#secone {
+    #secone {
     display: block;
 }
     
@@ -97,5 +96,84 @@ header#topMenu {
     padding: 17px 15px 17px 15px;
     font-size: 2rem;
 }
+    
+    #secthree .directories {
+    display: block;
+}
+    
+    #secthree .directories section {
+    margin-bottom: 35px;
+}
+    #secfour .events {
+    display: block;
+}
+    
+    section#secfive {
+    display: block;
+}
+    div#wbox1 {
+    width: 85%;
+    float: none;
+    margin: auto;
+}
+    
+    div#wbox2 {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+    
+    div#mainfooter {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+    
+    footer {
+    text-align: center;
+}
+    
+    .weathcont {
+    display: block;
+}
+
+.weathercontainer {
+    margin-bottom: 35px;
+}
+    
+    div#wbox2 h2 {
+    margin-top: 0;
+    text-align: center;
+}
+    
+    .weathcont {
+    display: block;
+}
+
+.weathercontainer {
+    margin-bottom: 35px;
+}
+
+#wbox1 h2 {
+    text-align: center;
+}
+    
+    div#advert {
+    display: block;
+}
+    
+#direct .directories {
+    display: block;
+}
+    
+    #direct .directories section {
+    margin-bottom: 35px;
+}
+    
+    input.submitBtn {
+    width: 100%;
+}
+    
+    
 
 }
