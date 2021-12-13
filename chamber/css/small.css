@@ -326,7 +326,10 @@ div#wbox2 h2 {
     text-align: center;
     align-items: center;
     padding: 10px;
-    height: 5.5rem;
+}
+
+.weathercontainer p {
+    margin: 0;
 }
 
 footer {

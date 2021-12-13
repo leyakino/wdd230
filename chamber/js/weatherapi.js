@@ -56,6 +56,7 @@ fetch(requestUrl)
       icon.alt = current.weather[0].description;
 
       const temp = document.createElement("p");
+      temp.textContent = dailyforecast.temp + "\xB0F";
 
       weatherbox.appendChild(weekdays);
       weatherbox.appendChild(icon);
